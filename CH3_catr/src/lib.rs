@@ -50,7 +50,7 @@ fn open(filename: &str) -> MyResult<Box<dyn BufRead>> {
 pub fn get_args() -> MyResult<Config> {
     let matches = Command::new("catr")
         .version("0.1.0")
-        .author("ME, me@me.com")
+        .author("huzwares <huzwares@skiff.com>")
         .about("Rust cat")
         .arg(
             Arg::new("files")

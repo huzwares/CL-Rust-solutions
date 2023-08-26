@@ -3,7 +3,7 @@ use clap::{Arg, Command};
 fn main() {
     let matches = Command::new("echor")
         .version("0.1.0")
-        .author("ME")
+        .author("huzwares <huzwares@skiff.com>")
         .about("Rust echo")
         .arg(
             Arg::new("text")

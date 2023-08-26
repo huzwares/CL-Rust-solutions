@@ -9,8 +9,9 @@ type MyResult<T> = Result<T, Box<dyn Error>>;
 
 #[derive(Parser, Debug)]
 #[command(name = "headr")]
-#[command(version = "0.1.0")]
+#[command(version = "0.2.0")]
 #[command(about = "Rust head (extended)")]
+#[command(author = "huzwares <huzwares@skiff.com>")]
 pub struct Config {
     #[arg(value_name = "FILES", default_value = "-")]
     files: Vec<String>,

@@ -9,7 +9,7 @@ type MyResult<T> = Result<T, Box<dyn Error>>;
 #[derive(Debug, Parser)]
 #[command(
     version = "0.1.0",
-    author = "ME <ME@ME.COM>",
+    author = "huzwares <huzwares@skiff.com>",
     name = "findr",
     about = "Rust find"
 )]

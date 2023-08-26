@@ -12,7 +12,7 @@ type MyResult<T> = Result<T, Box<dyn Error>>;
     name = "wcr",
     version = "0.1.0",
     about = "Rust wc",
-    author = "Me <me@me.me>"
+    author = "huzwares <huzwares@skiff.com>"
 )]
 pub struct Config {
     /// Input files

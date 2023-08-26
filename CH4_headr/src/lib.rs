@@ -17,7 +17,7 @@ pub struct Config {
 pub fn get_args() -> MyResult<Config> {
     let matches = Command::new("headr")
         .version("0.1.0")
-        .author("Me <Me@me.com>")
+        .author("huzwares <huzwares@skiff.com>")
         .about("Rust head")
         .arg(
             Arg::new("files")

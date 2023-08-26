@@ -13,7 +13,7 @@ type MyResult<T> = Result<T, Box<dyn Error>>;
     name = "uniqr",
     version = "0.1.0",
     about = "Rust uniq",
-    author = "ME <me@me.com"
+    author = "huzwares <huzwares@skiff.com>"
 )]
 pub struct Config {
     /// Input file
