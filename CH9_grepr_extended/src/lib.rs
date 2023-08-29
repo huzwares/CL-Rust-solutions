@@ -17,7 +17,7 @@ type MyResult<T> = Result<T, Box<dyn Error>>;
     name = "grepr",
     about = "Rust grep",
     author = "huzwares <huzwares@skiff.com>",
-    version = "0.1.0"
+    version = "0.2.0"
 )]
 pub struct Config {
     /// Search pattern
